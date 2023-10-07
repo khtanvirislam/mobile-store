@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/55nYjH8/amir-hanna-swe-UF7-Fcy-P4-unsplash.jpg",
+    "brand": "Samsung",
+    "model": "Galaxy S22",
+    "price": 899.99,
+    "ratings": 4.5,
+    "features": [
+      "6.2-inch AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "128GB storage",
+      "Triple rear camera (50MP + 12MP + 12MP)",
+      "8GB RAM",
+      "4500mAh battery"
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/yhxqhQn/oscar-nord-8l9-Vx-XI28t-Y-unsplash.jpg",
+    "brand": "Nokia",
+    "model": "9.3",
+    "price": 599.99,
+    "ratings": 4.0,
+    "features": [
+      "6.7-inch IPS LCD display",
+      "Snapdragon 765G processor",
+      "256GB storage",
+      "Quad rear camera (64MP + 12MP + 8MP + 2MP)",
+      "6GB RAM",
+      "4000mAh battery"
+    ]
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/M2j4Tm8/rahul-chakraborty-xs-Gxht-Asf-SA-unsplash.jpg",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "price": 999.99,
+    "ratings": 4.8,
+    "features": [
+      "6.1-inch Super Retina XDR display",
+      "A15 Bionic chip",
+      "128GB storage",
+      "Dual rear camera (12MP + 12MP)",
+      "4GB RAM",
+      "3520mAh battery"
+    ]
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/55nYjH8/amir-hanna-swe-UF7-Fcy-P4-unsplash.jpg",
+    "brand": "Google",
+    "model": "Pixel 6",
+    "price": 799.99,
+    "ratings": 4.6,
+    "features": [
+      "6.4-inch OLED display",
+      "Google Tensor processor",
+      "128GB storage",
+      "Dual rear camera (50MP + 12MP)",
+      "8GB RAM",
+      "4080mAh battery"
+    ]
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/yhxqhQn/oscar-nord-8l9-Vx-XI28t-Y-unsplash.jpg",
+    "brand": "OnePlus",
+    "model": "9 Pro",
+    "price": 899.0,
+    "ratings": 4.7,
+    "features": [
+      "6.7-inch Fluid AMOLED display",
+      "Snapdragon 888 processor",
+      "256GB storage",
+      "Quad rear camera (48MP + 50MP + 8MP + 2MP)",
+      "12GB RAM",
+      "4500mAh battery"
+    ]
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/55nYjH8/amir-hanna-swe-UF7-Fcy-P4-unsplash.jpg",
+    "brand": "Xiaomi",
+    "model": "Mi 11",
+    "price": 699.99,
+    "ratings": 4.4,
+    "features": [
+      "6.81-inch AMOLED display",
+      "Snapdragon 888 processor",
+      "128GB storage",
+      "Triple rear camera (108MP + 13MP + 5MP)",
+      "8GB RAM",
+      "4600mAh battery"
+    ]
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/M2j4Tm8/rahul-chakraborty-xs-Gxht-Asf-SA-unsplash.jpg",
+    "brand": "LG",
+    "model": "Velvet",
+    "price": 549.99,
+    "ratings": 4.2,
+    "features": [
+      "6.8-inch OLED display",
+      "Snapdragon 765G processor",
+      "128GB storage",
+      "Triple rear camera (48MP + 8MP + 5MP)",
+      "6GB RAM",
+      "4300mAh battery"
+    ]
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/55nYjH8/amir-hanna-swe-UF7-Fcy-P4-unsplash.jpg",
+    "brand": "Motorola",
+    "model": "Edge",
+    "price": 649.0,
+    "ratings": 4.0,
+    "features": [
+      "6.7-inch OLED display",
+      "Snapdragon 778G processor",
+      "128GB storage",
+      "Triple rear camera (108MP + 8MP + 2MP)",
+      "6GB RAM",
+      "5000mAh battery"
+    ]
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/yhxqhQn/oscar-nord-8l9-Vx-XI28t-Y-unsplash.jpg",
+    "brand": "Sony",
+    "model": "Xperia 1 III",
+    "price": 999.99,
+    "ratings": 4.5,
+    "features": [
+      "6.5-inch 4K HDR OLED display",
+      "Snapdragon 888 processor",
+      "256GB storage",
+      "Triple rear camera (12MP + 12MP + 12MP)",
+      "12GB RAM",
+      "4500mAh battery"
+    ]
+  },
+  {
+    "id": 10,
+    "img": "https://i.ibb.co/M2j4Tm8/rahul-chakraborty-xs-Gxht-Asf-SA-unsplash.jpg",
+    "brand": "Oppo",
+    "model": "Find X4",
+    "price": 849.99,
+    "ratings": 4.3,
+    "features": [
+      "6.5-inch AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "128GB storage",
+      "Quad rear camera (50MP + 12MP + 16MP + 5MP)",
+      "8GB RAM",
+      "4200mAh battery"
+    ]
+  },
+  {
+    "id": 11,
+    "img": "https://i.ibb.co/yhxqhQn/oscar-nord-8l9-Vx-XI28t-Y-unsplash.jpg",
+    "brand": "Asus",
+    "model": "ROG Phone 6",
+    "price": 1199.99,
+    "ratings": 4.9,
+    "features": [
+      "6.78-inch AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "256GB storage",
+      "Triple rear camera (64MP + 13MP + 5MP)",
+      "16GB RAM",
+      "6000mAh battery"
+    ]
+  },
+  {
+    "id": 12,
+    "img": "https://i.ibb.co/55nYjH8/amir-hanna-swe-UF7-Fcy-P4-unsplash.jpg",
+    "brand": "Huawei",
+    "model": "P50 Pro",
+    "price": 899.0,
+    "ratings": 4.2,
+    "features": [
+      "6.6-inch OLED display",
+      "Kirin 9000E processor",
+      "256GB storage",
+      "Quad rear camera (50MP + 40MP + 12MP + 5MP)",
+      "8GB RAM",
+      "4360mAh battery"
+    ]
+  }
+]
