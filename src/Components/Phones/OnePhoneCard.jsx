@@ -1,4 +1,5 @@
 import React from "react";
+import swal from "sweetalert";
 
 export const OnePhoneCard = ({ phone }) => {
   const { id, img, brand, bgColor, features, ratings, price, model } =
@@ -13,15 +14,18 @@ export const OnePhoneCard = ({ phone }) => {
     if (!favoritesItems) {
       addedFavoritesArray.push(phone);
       localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
+      swal("Good job!", "Product Added Successfully", "success");
     } else {
-      addedFavoritesArray.push(...favoritesItems, phone);
-      localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
-    }
+      const isExist = favoritesItems.find((phone) => phone.id === id);
+      swal("Good job!", "Product Added Successfully", "success");
 
-    // localStorage.setItem(
-    //   "test",
-    //   JSON.stringify([{ name: "abul", work: "web developer" }])
-    // );
+      if (!isExist) {
+        addedFavoritesArray.push(...favoritesItems, phone);
+        localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
+      } else {
+        swal("Error!", "No Duplication", "error");
+      }
+    }
   };
 
   return (
@@ -49,6 +53,7 @@ export const OnePhoneCard = ({ phone }) => {
           <a className="inline-block" href="#">
             <button
               onClick={handleAddToFavorites}
+              style={{ backgroundColor: bgColor + "60" }}
               className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               type="button"
             >
