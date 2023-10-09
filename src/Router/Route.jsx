@@ -3,11 +3,12 @@ import { MainLayout } from "../Layout/MainLayout";
 import { Home } from "../Pages/Home/Home";
 import { Favorites } from "../Pages/Favorites/Favorites";
 import { LogIn } from "../Pages/LogIn/LogIn";
-
+import { ErrorPage } from "../Pages/ErrorPage/ErrorPage";
 export const myCreatedRouter = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
