@@ -5,9 +5,18 @@ export const OnePhoneCard = ({ phone }) => {
     phone || {};
 
   const handleAddToFavorites = () => {
+    const addedFavoritesArray = [];
+
     const favoritesItems = JSON.parse(localStorage.getItem("favorites"));
     console.log(favoritesItems);
-    console.log(phone);
+
+    if (!favoritesItems) {
+      addedFavoritesArray.push(phone);
+      localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
+    } else {
+      addedFavoritesArray.push(...favoritesItems, phone);
+      localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
+    }
 
     // localStorage.setItem(
     //   "test",
