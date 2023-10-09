@@ -4,11 +4,12 @@ import { Home } from "../Pages/Home/Home";
 import { Favorites } from "../Pages/Favorites/Favorites";
 import { LogIn } from "../Pages/LogIn/LogIn";
 import { ErrorPage } from "../Pages/ErrorPage/ErrorPage";
+import { Phone } from "../Pages/Phone/Phone";
 export const myCreatedRouter = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    errorElement:<ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -22,6 +23,11 @@ export const myCreatedRouter = createBrowserRouter([
       {
         path: "/LogIn",
         element: <LogIn></LogIn>,
+      },
+      {
+        path: `/data/:id`,
+        element: <Phone></Phone>,
+        loader: () => fetch(`/data.json`),
       },
     ],
   },
